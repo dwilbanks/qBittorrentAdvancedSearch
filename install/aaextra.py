@@ -19,7 +19,6 @@ try:
 except ImportError:
     from urllib import unquote, quote, urlencode
 
-
 try:
     from lxml import etree    
 except ImportError:    

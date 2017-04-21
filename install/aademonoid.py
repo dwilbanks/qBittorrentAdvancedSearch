@@ -13,13 +13,11 @@ import errno
 import requests
 import json
 
-
 from novaprinter import prettyPrinter, anySizeToBytes
 try:
     from urllib.parse import unquote, quote, urlencode
 except ImportError:
     from urllib import unquote, quote, urlencode
-
 
 try:
     from lxml import etree    
