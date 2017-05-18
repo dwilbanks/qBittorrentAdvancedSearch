@@ -4,12 +4,12 @@ search plugins for qBittorrent
 This project started to repair existing engines that were broken.
 
 The baseline examples for for plugin engines are exceptionally convoluted and parse the HTML manually, I feel this 
-is similar to re-inventing the wheel.  Unless you successfully make a better wheel, you have failed.  
+is similar to re-inventing the wheel. Unless you successfully make a better wheel, you have failed.  
 
 The project grew towards isolating the various search engine specific components from the inner workings of a more 
 complicated engine.
 
-The project is now a framework for creating new plugins.   Instead of creating the entire plugin, you simpley built 
+The project is now a framework for creating new plugins. Instead of creating the entire plugin, you simply built 
 a couple methods, the framework takes care of the rest. 
 
 ###Getting Started:
@@ -24,20 +24,20 @@ a couple methods, the framework takes care of the rest.
 	the commands were.  You are probably already a python expert, why are you reading this?
 	
 	In almost all cases, unless you are already a python expert these two commands will fail.
-	The reason for this is the makers of python hate you.   If you are not every bit as
-	knowlegable as they are about python they detest you.   If you don't use linux they hate
+	The reason for this is the makers of python hate you. If you are not every bit as
+	knowlegable as they are about python they detest you. If you don't use linux they hate
 	you even more.
 	
 	To compensate for the fact that the makers of qBittorrent have chosen python as the
 	language for search, and the makers of python hates the target audience qBittorrent, 
 	I will have to explain a couple things that are public-secrets.   
 	
-	Nobody goes out of	their 	way to explain these little details, but, knowing them is 
+	Nobody goes out of their way to explain these little details, but, knowing them is 
 	essential to using python.
 	
 	First, you will need to know where your python is installed.  
 	
-	When you did your install it asked you a bunch of questions.  We don't read, them, 
+	When you did your install it asked you a bunch of questions. We don't read, them, 
 	we just click next-next-next until it says we are done.
 	
 	One of those questions was where would you like your python installed.   This is
@@ -92,13 +92,4 @@ a couple methods, the framework takes care of the rest.
 		This method is called as a part of the download process.  You may need to read 
 		additional information like parsing an description page to actually get to the torrent URL
 
-		
-### examples:
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
+	
